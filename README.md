@@ -1,5 +1,5 @@
 # CNN_demo
-CNN_demo
+CNN的演示实验，数据集包括CIFAR和MNIST，网络包括lenet,resnet,vgg
 
 - # train lenet on MNIST
   - python main.py --config='./cfgs/lenet_MNIST.yaml'
