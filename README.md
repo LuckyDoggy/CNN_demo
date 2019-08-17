@@ -1,7 +1,7 @@
 # CNN_demo
 CNN_demo
 
-# train lenet on MNIST
+-# train lenet on MNIST
 - python main.py --config='./cfgs/lenet_MNIST.yaml'
 # train lenet on CIFAR100
 
