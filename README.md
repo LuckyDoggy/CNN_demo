@@ -3,12 +3,18 @@ CNN_demo
 
 - # train lenet on MNIST
   - python main.py --config='./cfgs/lenet_MNIST.yaml'
-# train lenet on CIFAR100
-
-# train resnet18 on MNIST
-
-# train resnet18 on CIFAR100
-
-# train vgg11_bn on MNIST
-
-# train vgg11_bn on CIFAR100
+  
+- # train lenet on CIFAR100
+  - python main.py --config='./cfgs/lenet_CIFAR100.yaml'
+  
+- # train resnet18 on MNIST
+  - python main.py --config='./cfgs/resnet_MNIST.yaml'
+  
+- # train resnet18 on CIFAR100
+  - python main.py --config='./cfgs/resnet_CIFAR100.yaml'
+  
+- # train vgg11bn on MNIST
+  - python main.py --config='./cfgs/vgg11bn_MNIST.yaml'
+  
+- # train vgg11bn on CIFAR100
+  - python main.py --config='./cfgs/vgg11bn_CIFAR100.yaml'
