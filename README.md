@@ -2,7 +2,7 @@
 CNN_demo
 
 - # train lenet on MNIST
-- python main.py --config='./cfgs/lenet_MNIST.yaml'
+  - python main.py --config='./cfgs/lenet_MNIST.yaml'
 # train lenet on CIFAR100
 
 # train resnet18 on MNIST
