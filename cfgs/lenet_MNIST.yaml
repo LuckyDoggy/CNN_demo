@@ -1,0 +1,13 @@
+common:
+    arch: lenet
+    workers: 4
+    batch_size: 128
+    epochs: 20
+    lr: 0.1
+    momentum: 0.9
+    weight_decay: 0.0001
+    print_freq: 10
+    save_path: checkpoints/lenet_MNIST
+    use_gpu: True
+    dataset: MNIST
+    every_decay: 5
